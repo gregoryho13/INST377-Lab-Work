@@ -1,5 +1,49 @@
-<!--
-    Replace this with your working code from Lab 2, and include:
-    - The styles in this folder's `style.css`
-    - The script in script.js, which should be included via a `<script src="script.js" >` call before your closing </body> tag 
--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gregory Ho's Labs</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header class="header"><h1>Gregory's Labs for INST377</h1></header>
+    <div class="container">
+      <div class="left_section box">
+        <h2>Album Names</h2>
+        <ol class="box">
+          <li>The Beatles - Abbey Road</li>
+          <li>Mili - To Kill a Living Book</li>
+          <li>Keane - Hopes And Fears</li>
+          <li>Radiohead - Pablo Honey</li>
+          <li>Blue Swede - Hooked On A Feeling</li>
+        </ol>
+      </div>
+      <div class="right_section box">
+        <h2>Image Carousel</h2>
+        <div class="carousel">
+            <button class="prev">prev</button>
+            <div class="slides">
+              <div class="carousel_item"><img id="slide_1" src="images/ina_drool.gif" alt="Animated head empty"></div>
+              <div class="carousel_item"><img id="slide_2" src="images/gilwoke.jpg" alt="Gil is woke"></div>
+              <div class="carousel_item"><img id="slide_3" src="images/bulinWat.png" alt="Confused bulin"></div>
+              <div class="carousel_item"><img id="slide_4" src="images/ohno.png" alt="Confused psyduck"></div>
+            </div>
+            <button class="next">next</button>
+        </div>
+        <div class="box">
+          no thoughts, head empty<br>
+          Gil is woke<br>
+          Bulin is in shock<br>
+          Oh no!
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+        gregoryho13 <a href="http://github.com/gregoryho13/INST377-Lab-Work/" target="_blank" rel="noopener noreferrer">Github Account</a>
+      </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
